@@ -143,10 +143,128 @@ figcaption {
     text-align: center;
 }
 
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input, textarea, button {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.radio-group {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.button {
+    background-color: #0077cc;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+.team{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.cta a {
+    text-decoration: none;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+.examples {
+    display: flex;
+    padding-left: 3px;
+}
+
+.example {
+    margin-left: 10px;
+}
+
+.grid-info {
+    display: flex;
+}
+
+.cta {
+    background-color: #eef;
+    padding: 2rem;
+    text-align: center;
+}
+
+.trip-descriptions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.trip {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    background-color: #f9f9f9;
+}
+
+.trip img {
+    width: 100%;
+    height: auto;
+}
+
+.trip div {
+    padding: 1rem;
+}
+
+.trip-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+.trip-table th, .trip-table td {
+    border: 1px solid #ddd;
+    padding: 0.75rem;
+    text-align: center;
+}
+
 footer {
     display: flex;
     border: 1px solid #222;
     background-color: var(--primary-color);
     opacity: 0.7;
     color: #fff;
+}
+
+footer p a {
+    text-decoration: none;
+    color: var(--accent1-color);
+}
+
+footer p a:hover {
+    color: var(--secondary-color);
 }
